@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Zscore.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-links" id="navLinks">
+            
+            <ul>
+                
+                <li><a href="Zwebsite.html" class="active" style="text-decoration: none;color: #fff;">Home</a></li>
+                <li><a href="C:\Users\RAJ\Desktop\Wbsite\ZMatches.html" style="text-decoration: none;color: #fff;">Match</a></li>
+                <!-- <li><a href="">News</a></li> -->
+                <li><a href="C:\Users\RAJ\Desktop\Wbsite\Zlogin.html" style="text-decoration: none;color: #fff;">Login</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="left">
+            <input type="text" name="team1" id="t1" placeholder="Enter Team Name">
+            <input type="number" name="goal1" id="g1" placeholder="Enter Goal">
+        </div>
+        <div class="right">
+            <input type="number" name="goal2" id="g2" placeholder="Enter Goal">
+            <input type="text" name="team2" id="t2" placeholder="Enter Team Name">
+        </div>
+    </div>
+
+    <div class="btncls">
+        <input type="button" value="Add" id="add" onclick="store()">
+        <input type="button" value="Show All" id="show" onclick="show()">
+        <input type="button" value="Clear All" id="clear" onclick="cla()">
+    </div>
+
+    <hr>
+
+    <div class="score-card">
+        <table id="st">
+            <tr>
+                <th>Team 1</th>
+                <th></th>
+                <th></th>
+                <th>Team 2</th> 
+                <th></th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="Zscore.js"></script>
+</body>
+</html>

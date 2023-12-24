@@ -1,0 +1,22 @@
+table,tr,td{
+    border:10px solid gray;
+    /* border-collapse:collapse; */
+    /* border-radius:10px; */
+    border-style:inset;
+}
+
+tr,td{
+    background-color: aqua;
+}
+
+/* 
+dotted     
+dashed     
+solid     
+double     
+groove     
+ridge     
+inset     
+outset     
+none     
+hidden */

@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+	display: flex;
+	padding: 2%,6%;
+	justify-content: space-between;
+	align-items: center;
+    background-color: dimgrey;
+ }
+
+  .nav-links{
+ 	flex: 1;
+ 	text-align: center;
+ 	
+ }
+ .nav-links ul li{
+ 	list-style: none;
+ 	display: inline-block;
+ 	padding: 8px 12px;
+ 	position: relatives ;
+    font-size: 25px;
+    color: white;
+    
+ }
+
+ .nav-links>a{
+     text-decoration: none;
+ }
+
+.main{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.left, .right{
+    width: 50%;
+    height: 300px;
+    display: flex;
+}
+
+.left{
+    /* background-color: blue; */
+    justify-content: flex-start;
+}
+
+.right{
+    /* background-color: green; */
+    justify-content: flex-end;
+}
+
+.left>input, .right>input{
+    margin: auto;
+    height: 40px;
+    font-size: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+    /* background-color: gray; */
+    color: #000;
+    text-align: center;
+}
+
+.left>input[type="number"], .right>input[type="number"]{
+    height: 200px;
+    font-size: 40px;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+}
+
+.btncls{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 50px;
+
+}
+
+.btncls>input{
+    margin: 15px;
+    height: 60px;
+    width: 120px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#add{
+    background-color: rgb(59, 199, 27);
+}
+
+#show{
+    background-color: rgb(0, 51, 255);
+}
+
+#clear{
+    background-color: rgb(231, 49, 49);
+}
+
+hr{
+    margin: 10px 70px;
+}
+
+.score-card{
+    margin-top: 20px;
+    width: 100%;
+}
+
+#st{
+    width: 100%;
+    font-size: 25px;
+}
+
+th{
+    padding-bottom: 18px;
+}
